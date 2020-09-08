@@ -1,0 +1,22 @@
+// Rules
+@import 'rules/colors';
+// Sections
+@import 'sections/header';
+@import 'sections/appointment';
+
+body {
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 135px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}

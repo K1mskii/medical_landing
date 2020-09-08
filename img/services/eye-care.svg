@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="82.97" height="76.357" viewBox="0 0 82.97 76.357">
+  <g id="Service_icon_eye" data-name="Service/icon/eye" transform="translate(1.023 1.176)">
+    <path id="Shape" d="M2.783,0,0,14" transform="translate(57.063)" fill="none" stroke="#08b3e3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Shape-2" data-name="Shape" d="M0,0,2.783,14" transform="translate(20.75)" fill="none" stroke="#08b3e3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Shape-3" data-name="Shape" d="M2.683,13,0,0" transform="translate(57.063 61)" fill="none" stroke="#08b3e3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Shape-4" data-name="Shape" d="M0,13,2.683,0" transform="translate(20.75 61)" fill="none" stroke="#08b3e3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Shape-5" data-name="Shape" d="M0,0V3" transform="translate(40.463 4)" fill="none" stroke="#0c488e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Shape-6" data-name="Shape" d="M0,0V3" transform="translate(40.463 14)" fill="none" stroke="#0c488e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Shape-7" data-name="Shape" d="M0,0V3" transform="translate(40.463 24)" fill="none" stroke="#0c488e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Oval" d="M.778,1.5A.764.764,0,0,0,1.556.75.764.764,0,0,0,.778,0,.764.764,0,0,0,0,.75.764.764,0,0,0,.778,1.5Z" transform="translate(39.425 37)" fill="none" stroke="#0c488e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Shape-8" data-name="Shape" d="M29.908,0A45.893,45.893,0,0,0,.326,24.457a3.253,3.253,0,0,0,0,2.838C3.014,32.873,14.5,53,40.463,53S77.911,32.869,80.6,27.292a3.253,3.253,0,0,0,0-2.838A45.883,45.883,0,0,0,51.017,0" transform="translate(0 11)" fill="none" stroke="#08b3e3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Shape-9" data-name="Shape" d="M7.09,0A19.288,19.288,0,0,0,1.4,22.1,21.272,21.272,0,0,0,21.269,35,21.272,21.272,0,0,0,41.137,22.1,19.288,19.288,0,0,0,35.447,0" transform="translate(19.713 22)" fill="none" stroke="#0c488e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Shape-10" data-name="Shape" d="M.745,0A8.4,8.4,0,0,0,3.4,10.195a9.03,9.03,0,0,0,10.834,0A8.4,8.4,0,0,0,16.893,0" transform="translate(31.125 34)" fill="none" stroke="#0c488e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>
