@@ -1,0 +1,47 @@
+.about {
+    padding-top: 641px;
+}
+
+.about__container {}
+
+.about__wrapper {
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 135px;
+    border-bottom: 1px solid #eee;
+}
+
+.about__title {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: $blue;
+    text-transform: uppercase;
+}
+
+.about__text {
+    margin-top: 9px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: $dark-blue;
+}
+
+.about__subtext {
+    margin-top: 28px;
+    width: 533px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: $grey;
+}

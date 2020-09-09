@@ -1,0 +1,144 @@
+.services {
+    padding-top: 127px;
+}
+
+.services__container {}
+
+.container {}
+
+.services__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__our {}
+
+.services__title {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: $blue;
+    text-transform: uppercase;
+}
+
+.services__text {
+    margin-top: 8px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px;
+    color: $dark-blue;
+}
+
+.services__bold {
+    font-weight: bold;
+}
+
+.services__subtext {
+    margin-top: 32px;
+    width: 470px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: $grey;
+}
+
+.services__lists {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.services__list {
+    // padding-left: 24px;
+    list-style-type: circle;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: $grey;
+}
+
+.services__btn {
+    z-index: 2;
+    position: relative;
+    margin-top: 40px;
+    padding: 20px 24px 19px 24px;
+    background: $blue;
+    border-radius: 4px;
+    border: none;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.services__btn-icon {
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 242px;
+    margin-top: 13px;
+}
+
+.services__items {
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services__item {
+    width: 270px;
+    height: 270px;
+    background: #FFFFFF;
+    border: 1px solid #F1F1F1;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.services__item:nth-child(1) {
+    margin-left: 90px;
+}
+
+.services__item:nth-child(2) {
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.services__item:nth-child(3) {
+    margin-top: -70px;
+    margin-left: 90px;
+}
+
+.services__item:nth-child(4) {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.services__icon {
+    padding-top: 60px;
+}
+
+.services__name {
+    margin-top: 32px;
+    padding-bottom: 61px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    color: $dark-blue;
+}
