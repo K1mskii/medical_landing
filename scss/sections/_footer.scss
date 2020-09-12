@@ -1,0 +1,134 @@
+.footer {
+    padding-top: 40px;
+    background: linear-gradient(136.8deg, #08B4E4 -3.42%, #0B7EBA 37.91%, #0E418A 91.17%), #D8D8D8;
+}
+
+.footer__container {}
+
+.container {}
+
+.footer__wrapper {
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footer__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer__text {}
+
+.footer__title {
+    margin-bottom: 8px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+}
+
+.footer__subtext {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.footer__btn {}
+
+.footer__body {
+    width: 100%;
+    padding: 56px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__info {}
+
+.header__logo {}
+
+.header__logo-icon {}
+
+.footer__desc {
+    margin-top: 39px;
+    margin-bottom: 24px;
+    width: 370px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__contacts {
+    margin-bottom: 16px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__contacts-icon {
+    margin-right: 8px;
+}
+
+.footer__nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__list {
+    margin-left: 160px;
+}
+
+.footer__name {
+    margin-bottom: 24px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.footer__link {
+    margin-bottom: 24px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.copyright {
+    padding: 16px 0;
+    background: #103365;
+}
+
+.copyright__wrapper {
+    justify-content: center;
+}
+
+.copyright__title {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}

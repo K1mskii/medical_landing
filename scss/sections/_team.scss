@@ -1,0 +1,49 @@
+.team {
+    padding: 120px 0;
+}
+
+.team__container {}
+
+.container {}
+
+.team__wrapper {
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.team__title {
+    padding: 0 32px;
+    border-bottom: 4px solid $blue;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: $dark-blue;
+}
+
+.team__text {
+    width: 533px;
+    margin-top: 28px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: $grey;
+}
+
+.team__view {
+    margin-top: 52px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: $blue;
+}

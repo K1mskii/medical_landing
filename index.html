@@ -22,6 +22,11 @@
       rel="stylesheet"
     />
     <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!--===============================================================================================-->
   </head>
 
   <body>
@@ -45,7 +50,7 @@
               <li><a href="#" class="header__link">Pages</a></li>
             </nav>
           </div>
-          <button class="header__btn">Make an appointment</button>
+          <button class="header__btn btn">Make an appointment</button>
         </div>
       </div>
     </header>
@@ -66,194 +71,434 @@
       </div>
     </section>
 
-    <!-- Appointment -->
-    <section class="appointment">
-      <div class="appointment__container container">
-        <div class="appointment__wrapper">
-          <img src="img/img1.jpg" alt="IMG" class="appointment__img" />
-          <span class="appointment__patern"
-            ><img
-              src="img/pattern.svg"
-              alt="Pattern"
-              class="appointment__patern-icon"
-            />
-          </span>
-          <form action="#" class="appointment__form">
-            <h2 class="appointment__title">Appointment</h2>
-            <select name="" id="" class="appointment__select">
-              <span class="appointment__select-icon"></span>
-              <option value="" class="appointment__option">
-                Select location
-              </option>
-            </select>
-            <input
-              type="text"
-              class="appointment__input"
-              placeholder="Your Name"
-            />
-            <input
-              type="date"
-              class="appointment__input"
-              value="Birthday DD/MM/YY"
-            />
-            <input
-              type="tel"
-              class="appointment__input"
-              placeholder="Your Phone"
-            />
-            <input
-              type="email"
-              class="appointment__input"
-              placeholder="Your Email"
-            />
-            <input
-              type="text"
-              class="appointment__input"
-              placeholder="Your Message"
-            />
-            <input
-              type="submit"
-              class="appointment_submit"
-              value="Make an Appointment"
-            />
-          </form>
+    <main class="main">
+      <!-- Appointment -->
+      <section class="appointment">
+        <div class="appointment__container container">
+          <div class="appointment__wrapper">
+            <img src="img/img1.jpg" alt="IMG" class="appointment__img" />
+            <span class="appointment__patern"
+              ><img
+                src="img/pattern.svg"
+                alt="Pattern"
+                class="appointment__patern-icon"
+              />
+            </span>
+            <form action="#" class="appointment__form">
+              <h2 class="appointment__title">Appointment</h2>
+              <select name="" id="" class="appointment__select">
+                <span class="appointment__select-icon"></span>
+                <option value="" class="appointment__option">
+                  Select location
+                </option>
+              </select>
+              <input
+                type="text"
+                class="appointment__input"
+                placeholder="Your Name"
+              />
+              <!-- <input
+                type="date"
+                class="appointment__input"
+                placeholder="Birthday DD/MM/YY"
+              /> -->
+              <input
+                name="date"
+                type="text"
+                onfocus="(this.type='date')"
+                onblur="if(!this.value)this.type='text'"
+                class="appointment__input"
+                placeholder="Birthday DD/MM/YY"
+              />
+              <input
+                type="tel"
+                class="appointment__input"
+                placeholder="Your Phone"
+              />
+              <input
+                type="email"
+                class="appointment__input"
+                placeholder="Your Email"
+              />
+              <input
+                type="text"
+                class="appointment__input"
+                placeholder="Your Message"
+              />
+              <input
+                type="submit"
+                class="appointment_submit"
+                value="Make an Appointment"
+              />
+            </form>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- About us -->
-    <div class="about">
-      <div class="about__container container">
-        <div class="about__wrapper flex">
-          <h2 class="about__title">About us</h2>
-          <p class="about__text">We have more than 10 years experience</p>
-          <p class="about__subtext">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Services -->
-    <section class="services">
-      <div class="services__container container">
-        <div class="services__wrapper">
-          <div class="services__our">
-            <h2 class="services__title">Our Services</h2>
-            <p class="services__text">
-              We are providing the <br />
-              <b class="services__bold">top services</b>
-            </p>
-            <p class="services__subtext">
+      <!-- About us -->
+      <section class="about">
+        <div class="about__container container">
+          <div class="about__wrapper flex">
+            <h2 class="about__title">About us</h2>
+            <p class="about__text">We have more than 10 years experience</p>
+            <p class="about__subtext">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <nav class="services__lists">
-              <li class="services__list">Eye care</li>
-              <li class="services__list">Dental care</li>
-              <li class="services__list">Primary care</li>
-              <li class="services__list">Cardiology</li>
-            </nav>
-            <button class="services__btn">All Services</button>
-            <img
-              src="img/pattern.svg"
-              alt="Pattern"
-              class="services__btn-icon"
-            />
           </div>
-          <!-- /.services__our -->
+        </div>
+      </section>
 
-          <div class="services__items">
-            <div class="services__item flex">
+      <!-- Services -->
+      <section class="services">
+        <div class="services__container container">
+          <div class="services__wrapper">
+            <div class="services__our">
+              <h2 class="services__title">Our Services</h2>
+              <p class="services__text">
+                We are providing the <br />
+                <b class="services__bold">top services</b>
+              </p>
+              <p class="services__subtext">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <nav class="services__lists">
+                <li class="services__list">Eye care</li>
+                <li class="services__list">Dental care</li>
+                <li class="services__list">Primary care</li>
+                <li class="services__list">Cardiology</li>
+              </nav>
+              <button class="services__btn">All Services</button>
               <img
-                src="img/services/eye-care.svg"
-                alt="Eye care"
-                class="services__icon"
+                src="img/pattern.svg"
+                alt="Pattern"
+                class="services__btn-icon"
               />
-              <h2 class="services__name">Eye care</h2>
             </div>
-            <div class="services__item flex">
-              <img
-                src="img/services/dental-care.svg"
-                alt="Dental care"
-                class="services__icon"
-              />
-              <h2 class="services__name">Dental care</h2>
-            </div>
-            <div class="services__item flex">
-              <img
-                src="img/services/primary-care.svg"
-                alt="Primary care"
-                class="services__icon"
-              />
-              <h2 class="services__name">Primary care</h2>
-            </div>
-            <div class="services__item flex">
-              <img
-                src="img/services/cardiology.svg"
-                alt="Cardiology"
-                class="services__icon"
-              />
-              <h2 class="services__name">Cardiology</h2>
+            <!-- /.services__our -->
+
+            <div class="services__items">
+              <div class="services__item flex">
+                <img
+                  src="img/services/eye-care.svg"
+                  alt="Eye care"
+                  class="services__icon"
+                />
+                <h2 class="services__name">Eye care</h2>
+              </div>
+              <div class="services__item flex">
+                <img
+                  src="img/services/dental-care.svg"
+                  alt="Dental care"
+                  class="services__icon"
+                />
+                <h2 class="services__name">Dental care</h2>
+              </div>
+              <div class="services__item flex">
+                <img
+                  src="img/services/primary-care.svg"
+                  alt="Primary care"
+                  class="services__icon"
+                />
+                <h2 class="services__name">Primary care</h2>
+              </div>
+              <div class="services__item flex">
+                <img
+                  src="img/services/cardiology.svg"
+                  alt="Cardiology"
+                  class="services__icon"
+                />
+                <h2 class="services__name">Cardiology</h2>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Experts -->
-    <section class="experts">
-      <div class="experts__container container">
-        <div class="experts__wrapper flex">
-          <h2 class="experts__title">Our doctors</h2>
-          <p class="experts__text">
-            They are <b class="experts__bold">all experts</b>
-          </p>
-          <div class="experts__items">
-            <div class="experts__item">
-              <img
-                src="img/experts/expert1.jpg"
-                alt="Expert1"
-                class="experts__photo"
-              />
-              <h3 class="experts__name">Micheal Scofield</h3>
-              <p class="experts__position">Lead of doctors</p>
+      <!-- Experts -->
+      <section class="experts">
+        <div class="experts__container container">
+          <div class="experts__wrapper flex">
+            <h2 class="experts__title">Our doctors</h2>
+            <p class="experts__text">
+              They are <b class="experts__bold">all experts</b>
+            </p>
+            <div class="experts__items">
+              <div class="experts__item">
+                <img
+                  src="img/experts/expert1.jpg"
+                  alt="Expert1"
+                  class="experts__photo"
+                />
+                <h3 class="experts__name">Micheal Scofield</h3>
+                <p class="experts__position">Lead of doctors</p>
+              </div>
+              <!-- /.experts__item -->
+              <div class="experts__item">
+                <img
+                  src="img/experts/expert2.jpg"
+                  alt="Expert1"
+                  class="experts__photo"
+                />
+                <h3 class="experts__name">Micheal Scofield</h3>
+                <p class="experts__position">Lead of doctors</p>
+              </div>
+              <!-- /.experts__item -->
+              <div class="experts__item">
+                <img
+                  src="img/experts/expert3.jpg"
+                  alt="Expert1"
+                  class="experts__photo"
+                />
+                <h3 class="experts__name">Micheal Scofield</h3>
+                <p class="experts__position">Lead of doctors</p>
+              </div>
+              <!-- /.experts__item -->
+              <div class="experts__item">
+                <img
+                  src="img/experts/expert4.jpg"
+                  alt="Expert1"
+                  class="experts__photo"
+                />
+                <h3 class="experts__name">Micheal Scofield</h3>
+                <p class="experts__position">Lead of doctors</p>
+              </div>
+              <!-- /.experts__item -->
             </div>
-            <!-- /.experts__item -->
-            <div class="experts__item">
-              <img
-                src="img/experts/expert2.jpg"
-                alt="Expert1"
-                class="experts__photo"
-              />
-              <h3 class="experts__name">Micheal Scofield</h3>
-              <p class="experts__position">Lead of doctors</p>
-            </div>
-            <!-- /.experts__item -->
-            <div class="experts__item">
-              <img
-                src="img/experts/expert3.jpg"
-                alt="Expert1"
-                class="experts__photo"
-              />
-              <h3 class="experts__name">Micheal Scofield</h3>
-              <p class="experts__position">Lead of doctors</p>
-            </div>
-            <!-- /.experts__item -->
-            <div class="experts__item">
-              <img
-                src="img/experts/expert4.jpg"
-                alt="Expert1"
-                class="experts__photo"
-              />
-              <h3 class="experts__name">Micheal Scofield</h3>
-              <p class="experts__position">Lead of doctors</p>
-            </div>
-            <!-- /.experts__item -->
           </div>
+        </div>
+      </section>
+
+      <!-- Team -->
+      <section class="team">
+        <div class="team__container container">
+          <div class="team__wrapper flex">
+            <h2 class="team__title">Wanna join our team?</h2>
+            <p class="team__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="#" class="team__view">View all career</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Clients -->
+      <section class="clients">
+        <div class="clients__container container">
+          <div class="clients__wrapper flex">
+            <div class="clients__info">
+              <h2 class="clients__title">Testimonial</h2>
+              <p class="clients__text">
+                What <b class="clients__bold">clients</b> says <br />
+                about us
+              </p>
+              <img
+                src="img/pattern.svg"
+                alt="Pattern"
+                class="clients__pattern"
+              />
+            </div>
+            <!-- /.clients__info -->
+            <div class="clients__sliders">
+              <!-- Sliders btn arrow -->
+              <div class="clients__pagination">
+                <img
+                  src="img/clients/left-arrow.svg"
+                  alt="Left arrow"
+                  class="clients__pagination-icon"
+                />
+                <img
+                  src="img/clients/right-arrow.svg"
+                  alt="Right arrow"
+                  class="clients__pagination-icon"
+                />
+              </div>
+              <div class="clients__slider">
+                <div class="clients__client">
+                  <img
+                    src="img/clients/client1.png"
+                    alt="Client"
+                    class="clients__photo"
+                  />
+                  <div class="clients__client-info">
+                    <h3 class="clients__name">Frank Gallaghers</h3>
+                    <p class="clients__patient">Patient</p>
+                  </div>
+                </div>
+                <p class="clients__desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+              <!-- /.clients__slider -->
+              <div class="clients__slider">
+                <div class="clients__client">
+                  <img
+                    src="img/clients/client2.png"
+                    alt="Client"
+                    class="clients__photo"
+                  />
+                  <div class="clients__client-info">
+                    <h3 class="clients__name">Frank Gallaghers</h3>
+                    <p class="clients__patient">Patient</p>
+                  </div>
+                </div>
+                <p class="clients__desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+              <!-- /.clients__slider -->
+              <div class="clients__slider">
+                <div class="clients__client">
+                  <img
+                    src="img/clients/client3.png"
+                    alt="Client"
+                    class="clients__photo"
+                  />
+                  <div class="clients__client-info">
+                    <h3 class="clients__name">Frank Gallaghers</h3>
+                    <p class="clients__patient">Patient</p>
+                  </div>
+                </div>
+                <p class="clients__desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+              <!-- /.clients__slider -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- News -->
+      <section class="news">
+        <div class="news__container container">
+          <div class="news__wrapper flex">
+            <div class="news__text">
+              <h2 class="news__title">Our blogs</h2>
+              <p class="news__subtext">Our lastest news</p>
+            </div>
+            <div class="news__items">
+              <div class="news__item">
+                <img src="img/news/news1.jpg" alt="IMG" class="news__img" />
+                <div class="news__block-text">
+                  <h3 class="news__name">
+                    Medicine<span class="news__date">Aug 6, 2020</span>
+                  </h3>
+                  <a href="#" class="news__link">Medicine for headache</a>
+                </div>
+              </div>
+              <!-- /.news__item -->
+              <div class="news__item">
+                <img src="img/news/news2.jpg" alt="IMG" class="news__img" />
+                <div class="news__block-text">
+                  <h3 class="news__name">
+                    Medicine<span class="news__date">Aug 6, 2020</span>
+                  </h3>
+                  <a href="#" class="news__link">Medicine for headache</a>
+                </div>
+              </div>
+              <!-- /.news__item -->
+              <div class="news__item">
+                <img src="img/news/news3.jpg" alt="IMG" class="news__img" />
+                <div class="news__block-text">
+                  <h3 class="news__name">
+                    Medicine<span class="news__date">Aug 6, 2020</span>
+                  </h3>
+                  <a href="#" class="news__link">Medicine for headache</a>
+                </div>
+              </div>
+              <!-- /.news__item -->
+            </div>
+            <a href="#" class="news__view">View all blogs</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__wrapper flex">
+          <div class="footer__header">
+            <div class="footer__text">
+              <h2 class="footer__title">Need a doctor for check up</h2>
+              <p class="footer__subtext">Just make an appointment</p>
+            </div>
+            <a href="#" class="footer__btn btn">Make an Appointment</a>
+          </div>
+          <div class="footer__body">
+            <div class="footer__info">
+              <a href="#" class="header__logo flex"
+                ><img
+                  src="img/logo.svg"
+                  alt="Logo"
+                  class="header__logo-icon"
+                />Le-Beauty</a
+              >
+              <p class="footer__desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <span class="footer__contacts flex"
+                ><img
+                  src="img/footer/address-icon.svg"
+                  alt="Icon"
+                  class="footer__contacts-icon"
+                />59 Street, 1200 Techpark</span
+              >
+              <span class="footer__contacts flex"
+                ><img
+                  src="img/footer/phone.svg"
+                  alt="Icon"
+                  class="footer__contacts-icon"
+                />0123456789</span
+              >
+              <span class="footer__contacts flex"
+                ><img
+                  src="img/footer/time.svg"
+                  alt="Icon"
+                  class="footer__contacts-icon"
+                />8:00 am - 17:00 pm, Monday - Friday</span
+              >
+            </div>
+            <nav class="footer__nav">
+              <ul class="footer__list">
+                <span class="footer__name">Quick link</span>
+                <li><a href="#" class="footer__link">Who We Are</a></li>
+                <li><a href="#" class="footer__link">Our Mission</a></li>
+                <li><a href="#" class="footer__link">Awards</a></li>
+                <li><a href="#" class="footer__link">Experience</a></li>
+                <li><a href="#" class="footer__link">Sucess Story</a></li>
+              </ul>
+              <ul class="footer__list">
+                <span class="footer__name">Department</span>
+                <li><a href="#" class="footer__link">Who We Are</a></li>
+                <li><a href="#" class="footer__link">Our Mission</a></li>
+                <li><a href="#" class="footer__link">Awards</a></li>
+                <li><a href="#" class="footer__link">Experience</a></li>
+                <li><a href="#" class="footer__link">Sucess Story</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Copyright -->
+    <section class="copyright">
+      <div class="copyright__container container">
+        <div class="copyright__wrapper flex">
+          <p class="copyright__title">
+            © Copyright Le-Beauty 2020. All Right Reserved. Developed by K1mskii
+          </p>
         </div>
       </div>
     </section>
@@ -262,6 +507,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!--===============================================================================================-->
     <script src="js/main.js"></script>
+    <!--===============================================================================================-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!--===============================================================================================-->
   </body>
 </html>
