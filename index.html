@@ -22,10 +22,7 @@
       rel="stylesheet"
     />
     <!--===============================================================================================-->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="css/swiper.min.css" />
     <!--===============================================================================================-->
   </head>
 
@@ -305,73 +302,69 @@
             </div>
             <!-- /.clients__info -->
             <div class="clients__sliders">
-              <!-- Sliders btn arrow -->
-              <div class="clients__pagination">
-                <img
-                  src="img/clients/left-arrow.svg"
-                  alt="Left arrow"
-                  class="clients__pagination-icon"
-                />
-                <img
-                  src="img/clients/right-arrow.svg"
-                  alt="Right arrow"
-                  class="clients__pagination-icon"
-                />
-              </div>
-              <div class="clients__slider">
-                <div class="clients__client">
-                  <img
-                    src="img/clients/client1.png"
-                    alt="Client"
-                    class="clients__photo"
-                  />
-                  <div class="clients__client-info">
-                    <h3 class="clients__name">Frank Gallaghers</h3>
-                    <p class="clients__patient">Patient</p>
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="clients__slider">
+                    <div class="clients__client">
+                      <img
+                        src="img/clients/client1.png"
+                        alt="Client"
+                        class="clients__photo"
+                      />
+                      <div class="clients__client-info">
+                        <h3 class="clients__name">Frank Gallaghers</h3>
+                        <p class="clients__patient">Patient</p>
+                      </div>
+                    </div>
+                    <p class="clients__desc">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
                   </div>
-                </div>
-                <p class="clients__desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-              <!-- /.clients__slider -->
-              <div class="clients__slider">
-                <div class="clients__client">
-                  <img
-                    src="img/clients/client2.png"
-                    alt="Client"
-                    class="clients__photo"
-                  />
-                  <div class="clients__client-info">
-                    <h3 class="clients__name">Frank Gallaghers</h3>
-                    <p class="clients__patient">Patient</p>
+                  <!-- /.clients__slider -->
+
+                  <div class="clients__slider">
+                    <div class="clients__client">
+                      <img
+                        src="img/clients/client2.png"
+                        alt="Client"
+                        class="clients__photo"
+                      />
+                      <div class="clients__client-info">
+                        <h3 class="clients__name">Frank Gallaghers</h3>
+                        <p class="clients__patient">Patient</p>
+                      </div>
+                    </div>
+                    <p class="clients__desc">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
                   </div>
-                </div>
-                <p class="clients__desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-              <!-- /.clients__slider -->
-              <div class="clients__slider">
-                <div class="clients__client">
-                  <img
-                    src="img/clients/client3.png"
-                    alt="Client"
-                    class="clients__photo"
-                  />
-                  <div class="clients__client-info">
-                    <h3 class="clients__name">Frank Gallaghers</h3>
-                    <p class="clients__patient">Patient</p>
+                  <!-- /.clients__slider -->
+
+                  <div class="clients__slider">
+                    <div class="clients__client">
+                      <img
+                        src="img/clients/client3.png"
+                        alt="Client"
+                        class="clients__photo"
+                      />
+                      <div class="clients__client-info">
+                        <h3 class="clients__name">Frank Gallaghers</h3>
+                        <p class="clients__patient">Patient</p>
+                      </div>
+                    </div>
+                    <p class="clients__desc">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
                   </div>
+                  <!-- /.clients__slider -->
                 </div>
-                <p class="clients__desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
               </div>
-              <!-- /.clients__slider -->
             </div>
           </div>
         </div>
@@ -508,7 +501,32 @@
     <!--===============================================================================================-->
     <script src="js/main.js"></script>
     <!--===============================================================================================-->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/swiper.min.js"></script>
     <!--===============================================================================================-->
+    <script>
+      const slider = document.querySelector(".swiper-container");
+
+      let mySwiper = new Swiper(slider, {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        loop: true,
+        // pagination: {
+        //   el: ".swiper-pagination",
+        //   clickable: true,
+        // },
+        autoplay: {
+          delay: 5000,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          1440: {
+            slidesPerView: 3,
+          },
+        },
+      });
+    </script>
   </body>
 </html>

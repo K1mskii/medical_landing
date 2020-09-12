@@ -65,7 +65,7 @@
 
 .hero {
   position: relative;
-  background: url(../../img/bg.jpg);
+  background: url(../img/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -669,13 +669,19 @@
           align-items: center;
 }
 
-.clients__pagination {
+.swiper-container {
+  max-width: 1440px;
+  height: 360px;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
-  left: -83px;
-  bottom: 44px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .clients__pagination-icon {
@@ -683,7 +689,6 @@
 }
 
 .clients__slider {
-  margin-right: 30px;
   background: #fff;
   width: 370px;
   height: 360px;
