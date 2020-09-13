@@ -45,3 +45,26 @@
     text-align: center;
     color: $grey;
 }
+
+@media screen and (max-width: 1200px) {
+    .about {
+        padding-top: 550px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .about__wrapper {
+        padding-bottom: 65px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about {
+        padding-top: 280px;
+    }
+
+    .about__subtext {
+        margin-top: 28px;
+        width: 100%;
+    }
+}

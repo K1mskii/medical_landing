@@ -131,4 +131,65 @@
     font-size: 14px;
     line-height: 24px;
     color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+}
+
+@media screen and (max-width: 1054px) {
+    .footer__list {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 894px) {
+    .footer__list {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 814px) {
+    .footer__list {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .footer__desc {
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 674px) {
+    .footer__list {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .footer__body {
+        flex-direction: column;
+    }
+
+    .footer__list {
+        margin: 0;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer__header {
+        flex-direction: column;
+    }
+
+    .footer__text,
+    .footer__subtext {
+        text-align: center;
+    }
+
+    .footer__header .btn {
+        margin-top: 30px;
+    }
+
+    .footer__desc {
+        width: 100%;
+    }
 }

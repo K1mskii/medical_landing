@@ -57,6 +57,7 @@
     border: 1px solid rgba(255, 255, 255, 0.4);
     border-radius: 4px;
     cursor: pointer;
+    text-align: center;
 }
 
 .hero {
@@ -114,13 +115,15 @@
     }
 }
 
-@media screen and (max-width: 1193px) {
+
+
+@media screen and (max-width: 1073px) {
     .header__link {
         margin-right: 15px;
     }
 }
 
-@media screen and (max-width: 1118px) {
+@media screen and (max-width: 1000px) {
     .flex .header__nav {
         display: none;
     }

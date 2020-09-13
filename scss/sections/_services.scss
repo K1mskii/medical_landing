@@ -203,11 +203,6 @@
 }
 
 @media screen and (max-width: 1299px) {
-    .services__wrapper {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
 
     .services__btn-icon {
         display: none;
@@ -248,5 +243,29 @@
         padding-bottom: 30.5px;
         font-size: 18px;
     }
+}
 
+@media screen and (max-width: 1029px) {
+    .services__wrapper {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 720px) {
+    .services {
+        padding-top: 65px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .services__subtext {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 449px) {
+    .services__items {
+        display: none;
+    }
 }

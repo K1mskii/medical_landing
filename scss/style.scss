@@ -22,15 +22,48 @@ body {
     padding: 0 135px;
 }
 
-@media screen and (max-width: 1000px) {
-    .container {
+@media screen and (max-width: 1200px) {
+
+    .header .container,
+    .appointment .container,
+    .about .container,
+    .services .container,
+    .experts .container,
+    .team .container,
+    .news .container,
+    .footer .container,
+    .copyright .container {
         padding: 0 75px;
     }
 }
 
+@media screen and (max-width: 755px) {
+
+    .header .container,
+    .appointment .container,
+    .about .container,
+    .services .container,
+    .experts .container,
+    .team .container,
+    .news .container,
+    .footer .container,
+    .copyright .container {
+        padding: 0 35px;
+    }
+}
+
 @media screen and (max-width: 600px) {
-    .container {
-        padding: 0 30px;
+
+    .header .container,
+    .appointment .container,
+    .about .container,
+    .services .container,
+    .experts .container,
+    .team .container,
+    .news .container,
+    .footer .container,
+    .copyright .container {
+        padding: 0 20px;
     }
 }
 
