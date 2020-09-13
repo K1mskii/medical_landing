@@ -142,3 +142,111 @@
     text-align: center;
     color: $dark-blue;
 }
+
+@media screen and (max-width: 1439px) {
+    .services__items {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 1419px) {
+    .services__items {
+        margin-left: 10px;
+    }
+
+    .services__item:nth-child(1) {
+        margin-left: 45px;
+    }
+
+    .services__item:nth-child(2) {
+        margin-left: 15px;
+    }
+
+    .services__item:nth-child(3) {
+        margin-left: 45px;
+    }
+
+    .services__item:nth-child(4) {
+        margin-left: 15px;
+    }
+
+}
+
+@media screen and (max-width: 1349px) {
+    .services__wrapper {
+        justify-content: center;
+    }
+
+    .services__item {
+        margin: 5px;
+    }
+
+    .services__item:nth-child(1) {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .services__item:nth-child(2) {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .services__item:nth-child(3) {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .services__item:nth-child(4) {
+        margin-top: 0;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1299px) {
+    .services__wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services__btn-icon {
+        display: none;
+    }
+
+    .services__title,
+    .services__text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .services__items {
+        margin-top: 20px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services__item {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services__icon {
+        padding-top: 30px;
+        width: 75px;
+        height: 75px;
+    }
+
+    .services__name {
+        margin-top: 16px;
+        padding-bottom: 30.5px;
+        font-size: 18px;
+    }
+
+}

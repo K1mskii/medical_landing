@@ -7,7 +7,6 @@
 @import 'sections/services';
 @import 'sections/experts';
 @import 'sections/team';
-@import 'sections/clients';
 @import 'sections/news';
 @import 'sections/footer';
 
@@ -21,6 +20,18 @@ body {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 135px;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        padding: 0 75px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 0 30px;
+    }
 }
 
 .flex {

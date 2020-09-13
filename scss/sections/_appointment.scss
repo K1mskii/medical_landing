@@ -31,7 +31,7 @@
     margin-left: 69px;
     padding: 40px;
     background: #fff;
-    border: 1px solid #EEEEEE;
+    border: 1px solid #eeeeee;
     box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.0602054);
     border-radius: 8px;
     display: flex;
@@ -55,8 +55,8 @@
     position: relative;
     padding: 19px 23px 18px 24px;
     width: 420px;
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+    background: #ffffff;
+    border: 1px solid #eeeeee;
     border-radius: 4px;
     font-family: Rubik;
     font-style: normal;
@@ -81,8 +81,8 @@
     margin-top: 16px;
     padding: 19px 23px 18px 24px;
     width: 371px;
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+    background: #ffffff;
+    border: 1px solid #eeeeee;
     border-radius: 4px;
     font-family: Rubik;
     font-style: normal;
@@ -96,7 +96,7 @@
     margin-top: 16px;
     width: 420px;
     padding: 20px 137px 19px 136px;
-    background: #09A4D8;
+    background: #09a4d8;
     border-radius: 4px;
     border: none;
     font-family: Rubik;
@@ -104,6 +104,63 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
-    color: #FFFFFF;
+    color: #ffffff;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1325px) {
+    .appointment__img {
+        width: 450px;
+        height: 450px;
+    }
+
+    .appointment__patern {
+        bottom: 82px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .appointment__img,
+    .appointment__patern {
+        display: none;
+    }
+
+    .appointment__wrapper {
+        justify-content: center;
+    }
+
+    .appointment__form {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .appointment__form {
+        padding: 20px;
+    }
+
+    .appointment__select {
+        width: 320px;
+        padding: 9.5px 11px 9px 12px;
+    }
+
+    .appointment__input {
+        margin-top: 8px;
+        padding: 9.5px 11px 9px 12px;
+        width: 295px;
+    }
+
+    .appointment_submit {
+        margin-top: 8px;
+        width: 320px;
+        padding: 20px 137px 19px 136px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .appointment {
+        bottom: -50px;
+    }
+
 }
